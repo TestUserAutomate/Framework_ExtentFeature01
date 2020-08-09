@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="uName" value="testuser"/>
+	<parameter name="password" value="testpassword"/> <!--  parameters  have to be before classes -->
+    <classes>
+      <class name="com.test.concepts.Login_Guru_Parameterization"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
