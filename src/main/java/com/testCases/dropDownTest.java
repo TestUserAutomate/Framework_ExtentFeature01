@@ -22,7 +22,7 @@ public class dropDownTest extends ProjectSpecificMethods {
 		.dropDownClick().dropDownDeals();
 	}
 	
-	@Test
+	/*@Test
 	public void dropDownApplianceTest() {
 		test=extent.createTest("dropDownApplianceTest");
 		new AmazonHomePage().dropDownClick().dropDownAppliances();
@@ -47,5 +47,5 @@ public class dropDownTest extends ProjectSpecificMethods {
 		test=extent.createTest("dropDownWatchesTest");
 		new AmazonHomePage().dropDownClick().dropDownWatches();
 	}
-
+*/
 }

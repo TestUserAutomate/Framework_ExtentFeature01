@@ -7,6 +7,8 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
@@ -39,13 +41,15 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 
 
+
+
 public class SeleniumBase implements Browser,Element{
-	
+	public static Logger log = LogManager.getLogger(SeleniumBase.class);
 	public static RemoteWebDriver driver;
 	public static WebDriverWait wait;
 	
 	public ExtentHtmlReporter htmlReporter; //for look and feel of the report
-	public ExtentTest test,logger; //to update the status in the report- pass/fail/skip & infos
+	public ExtentTest test; //to update the status in the report- pass/fail/skip & infos
 	public ExtentReports extent; //create entries in report for every TC
 	
 	int i=1;
@@ -531,6 +535,7 @@ public class SeleniumBase implements Browser,Element{
 		  htmlReporter.config().setTheme(Theme.DARK);
 		  
 		  extent=new ExtentReports();
+		  log.info("Extent Reports configured");
 		  extent.attachReporter(htmlReporter);
 		  extent.setSystemInfo("Environment",environment);
 		  extent.setSystemInfo("Browser", browser);

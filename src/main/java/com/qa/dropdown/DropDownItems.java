@@ -1,5 +1,6 @@
 package com.qa.dropdown;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
@@ -16,7 +17,9 @@ public class DropDownItems extends SeleniumBase {
 	 
 	public DealsPage dropDownDeals() {
 			dropDown.selectByVisibleText("Deals");
+			log.info("Deals text selected");
 			driver.findElement(By.id("twotabsearchtextbox")).sendKeys("shirts");
+			log.info("Send keys for shirts input");
 			driver.findElement(By.xpath("//*[@id=\"nav-search\"]/form/div[2]/div/input")).click();
 			String s=driver.getTitle();
 			System.out.println(s);

@@ -42,3 +42,6 @@
 [0809/125029.392:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir18552_160858367\Crashpad: The system cannot find the file specified. (0x2)
 [0809/125138.723:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir26284_608719659\Crashpad: The system cannot find the file specified. (0x2)
 [0809/125159.219:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir26992_1335624341\Crashpad: The system cannot find the file specified. (0x2)
+[0809/131855.014:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir26116_750221163\Crashpad: The system cannot find the file specified. (0x2)
+[0810/152743.619:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir1932_1496589127\Crashpad: The system cannot find the file specified. (0x2)
+[0810/152854.618:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir16792_2040120716\Crashpad: The system cannot find the file specified. (0x2)
