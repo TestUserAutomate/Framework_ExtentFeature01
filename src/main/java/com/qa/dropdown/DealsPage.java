@@ -5,9 +5,8 @@ import com.qa.ApplicationSpecifics.ProjectSpecificMethods;
 
 public class DealsPage extends ProjectSpecificMethods {
 	
-	public void test123() {
-		log.info("Dealspagee , test123"); // class name , method name
-		log.info("Dealspage flow completed");
+	public void onDealsPage() {
+		log.info("DealsPage"); // class name , method name
+		log.info("DealsPage flow completed");
 	}
-
 }

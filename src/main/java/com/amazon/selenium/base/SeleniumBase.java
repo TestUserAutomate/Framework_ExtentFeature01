@@ -38,19 +38,14 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-
-
-
-
-
 public class SeleniumBase implements Browser,Element{
-	public static Logger log = LogManager.getLogger(SeleniumBase.class);
+	public static Logger log = LogManager.getLogger(SeleniumBase.class); //for log 4j
 	public static RemoteWebDriver driver;
 	public static WebDriverWait wait;
 	
 	public ExtentHtmlReporter htmlReporter; //for look and feel of the report
-	public ExtentTest test; //to update the status in the report- pass/fail/skip & infos
 	public ExtentReports extent; //create entries in report for every TC
+	public ExtentTest test; //to update the status in the report- pass/fail/skip & infos
 	
 	int i=1;
 	@Override
@@ -531,7 +526,7 @@ public class SeleniumBase implements Browser,Element{
 			
 		  htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/myReport.html");
 		  htmlReporter.config().setDocumentTitle("Automation Report"); //Title of the report
-		  htmlReporter.config().setReportName("Functional Report"); //Name of the report
+		  htmlReporter.config().setReportName("Amazon Functional Report"); //Name of the report
 		  htmlReporter.config().setTheme(Theme.DARK);
 		  
 		  extent=new ExtentReports();
@@ -539,8 +534,6 @@ public class SeleniumBase implements Browser,Element{
 		  extent.attachReporter(htmlReporter);
 		  extent.setSystemInfo("Environment",environment);
 		  extent.setSystemInfo("Browser", browser);
-		  extent.setSystemInfo("HostName", "Local");
-		  extent.setSystemInfo("OS", "Windows");
 		  extent.setSystemInfo("Tester Name", Tester_name);
 			
 	}

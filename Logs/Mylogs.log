@@ -1,0 +1,52 @@
+[INFO ] 2020-08-10 18:22:22.242 [main] SeleniumBase - Extent Reports configured
+[INFO ] 2020-08-10 18:22:38.397 [main] SeleniumBase - Appliances text selected
+[INFO ] 2020-08-10 18:22:43.000 [main] SeleniumBase - Appliances search clicked
+[INFO ] 2020-08-10 18:22:43.060 [main] SeleniumBase - Amazon.in : vacuum cleaner
+[INFO ] 2020-08-10 18:55:14.915 [main] SeleniumBase - Extent Reports configured
+[INFO ] 2020-08-10 18:55:35.226 [main] SeleniumBase - In Home page, Appliances text selected
+[INFO ] 2020-08-10 18:55:35.639 [main] SeleniumBase - Appliances search clicked
+[INFO ] 2020-08-10 18:55:36.523 [main] SeleniumBase - Current Page:
+[INFO ] 2020-08-10 18:56:03.455 [main] SeleniumBase - In Home page, Deals text selected
+[INFO ] 2020-08-10 18:56:09.372 [main] SeleniumBase - Deals search clicked
+[INFO ] 2020-08-10 18:56:09.513 [main] SeleniumBase - Current Page:Amazon.in : shirts
+[INFO ] 2020-08-10 18:56:36.054 [main] SeleniumBase - In Electronics page, Electronics text selected
+[INFO ] 2020-08-10 18:56:36.378 [main] SeleniumBase - Electronics search clicked
+[INFO ] 2020-08-10 18:56:37.553 [main] SeleniumBase - Current Page:
+[INFO ] 2020-08-10 18:57:05.629 [main] SeleniumBase - In Watches page, Kindle Store text selected
+[INFO ] 2020-08-10 18:57:05.964 [main] SeleniumBase - Watches search clicked
+[INFO ] 2020-08-10 18:57:07.235 [main] SeleniumBase - Current Page:
+[INFO ] 2020-08-10 18:57:30.278 [main] SeleniumBase - In Kindle Store page, Kindle Store text selected
+[INFO ] 2020-08-10 18:57:35.204 [main] SeleniumBase - Kindle Store search clicked
+[INFO ] 2020-08-10 18:57:35.270 [main] SeleniumBase - Current Page:Amazon.in : kindle
+[INFO ] 2020-08-12 17:18:48.439 [main] SeleniumBase - Extent Reports configured
+[INFO ] 2020-08-12 17:19:21.726 [main] SeleniumBase - In Home page, Appliances text selected
+[INFO ] 2020-08-12 17:19:22.139 [main] SeleniumBase - Appliances search clicked
+[INFO ] 2020-08-12 17:20:32.579 [main] SeleniumBase - Extent Reports configured
+[INFO ] 2020-08-12 17:21:05.391 [main] SeleniumBase - In Home page, Deals text selected
+[INFO ] 2020-08-12 17:21:15.546 [main] SeleniumBase - Deals search clicked
+[INFO ] 2020-08-12 17:23:09.818 [main] SeleniumBase - Extent Reports configured
+[INFO ] 2020-08-12 17:23:31.184 [main] SeleniumBase - In Home page, Deals text selected
+[INFO ] 2020-08-12 17:23:40.062 [main] SeleniumBase - Deals search clicked
+[INFO ] 2020-08-12 17:23:40.064 [main] SeleniumBase - DealsPage , onDealsPage
+[INFO ] 2020-08-12 17:23:40.064 [main] SeleniumBase - DealsPage flow completed
+[INFO ] 2020-08-12 18:27:19.107 [main] SeleniumBase - Extent Reports configured
+[INFO ] 2020-08-12 18:27:45.062 [main] SeleniumBase - In Home page, Appliances text selected
+[INFO ] 2020-08-12 18:27:49.879 [main] SeleniumBase - Appliances search clicked
+[INFO ] 2020-08-12 18:27:49.938 [main] SeleniumBase - AppliancePage
+[INFO ] 2020-08-12 18:27:49.938 [main] SeleniumBase - AppliancePage flow completed
+[INFO ] 2020-08-12 18:28:27.515 [main] SeleniumBase - In Home page, Deals text selected
+[INFO ] 2020-08-12 18:28:28.032 [main] SeleniumBase - Deals search clicked
+[INFO ] 2020-08-12 18:28:28.033 [main] SeleniumBase - DealsPage , onDealsPage
+[INFO ] 2020-08-12 18:28:28.034 [main] SeleniumBase - DealsPage flow completed
+[INFO ] 2020-08-12 18:28:51.065 [main] SeleniumBase - In Electronics page, Electronics text selected
+[INFO ] 2020-08-12 18:28:51.473 [main] SeleniumBase - Electronics search clicked
+[INFO ] 2020-08-12 18:28:51.474 [main] SeleniumBase - ElectronicsPage
+[INFO ] 2020-08-12 18:28:51.475 [main] SeleniumBase - ElectronicsPage flow completed
+[INFO ] 2020-08-12 18:29:08.414 [main] SeleniumBase - In Watches page, Kindle Store text selected
+[INFO ] 2020-08-12 18:29:08.831 [main] SeleniumBase - Watches search clicked
+[INFO ] 2020-08-12 18:29:08.832 [main] SeleniumBase - WatchPage
+[INFO ] 2020-08-12 18:29:08.832 [main] SeleniumBase - WatchPage flow completed
+[INFO ] 2020-08-12 18:29:29.319 [main] SeleniumBase - In Kindle Store page, Kindle Store text selected
+[INFO ] 2020-08-12 18:29:29.687 [main] SeleniumBase - Kindle Store search clicked
+[INFO ] 2020-08-12 18:29:29.689 [main] SeleniumBase - kindlePage
+[INFO ] 2020-08-12 18:29:29.689 [main] SeleniumBase - kindlePage flow completed

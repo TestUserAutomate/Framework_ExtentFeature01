@@ -30,28 +30,19 @@ String excelFileName ="";
 	public Object[][] fetchData() throws IOException {
 		return DataLibrary.readExcelData(excelFileName);
 	}
-  
-	
 
 	@BeforeTest
 	public void reporting() {
-		
-		 reportSetup("QA", "Naren", "chrome");
-		 
+		reportSetup("QA", "Naren", "chrome"); 
 	}
 	
-  @BeforeMethod
-  public void beforeMethod() {
+	@BeforeMethod
+	public void beforeMethod() {
 	  startApp("chrome", "https://www.amazon.in/");
-	
-	 
-  }
+	}
   
-
- 
- 
-  @AfterMethod
-  public void afterMethod(ITestResult result) throws InterruptedException {
+	@AfterMethod
+	public void afterMethod(ITestResult result) throws InterruptedException {
 	  if(result.getStatus()== ITestResult.FAILURE) {
 		  test.log(Status.FAIL, "Test case failed is"+result.getName()); //to add name in the extent report
 	  }else if(result.getStatus()==ITestResult.SKIP){

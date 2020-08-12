@@ -1,69 +1,60 @@
 package com.qa.dropdown;
 
-import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
 import com.amazon.selenium.base.SeleniumBase;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
+
 
 public class DropDownItems extends SeleniumBase {
 
-	
-	
-	
 	Select dropDown=new Select(driver.findElement(By.id("searchDropdownBox")));
 	 
 	public DealsPage dropDownDeals() {
 			dropDown.selectByVisibleText("Deals");
-			log.info("Deals text selected");
+			log.info("In Home page, Deals text selected");
 			driver.findElement(By.id("twotabsearchtextbox")).sendKeys("shirts");
-			log.info("Send keys for shirts input");
 			driver.findElement(By.xpath("//*[@id=\"nav-search\"]/form/div[2]/div/input")).click();
-			String s=driver.getTitle();
-			System.out.println(s);
+			log.info("Deals search clicked");
 			return new DealsPage();
 		}
 	 
 	 public AppliancePage dropDownAppliances() {
-		 dropDown.selectByIndex(8);
+		 dropDown.selectByVisibleText("Appliances");
+		 log.info("In Home page, Appliances text selected");
 		 driver.findElement(By.id("twotabsearchtextbox")).sendKeys("vacuum cleaner");
 		 driver.findElement(By.xpath("//*[@id=\"nav-search\"]/form/div[2]/div/input")).click();
-		 String s=driver.getTitle();
-		 System.out.println(s);
+		 log.info("Appliances search clicked");
 		 return new AppliancePage();
 		 
 	 }
 	 
 	 public ElectronicsPage dropDownElectronics() {
 		 dropDown.selectByVisibleText("Electronics");
+		 log.info("In Home page, Electronics text selected");
 		 driver.findElement(By.id("twotabsearchtextbox")).sendKeys("vacuum cleaner");
 		 driver.findElement(By.xpath("//*[@id=\"nav-search\"]/form/div[2]/div/input")).click();
-		 String s=driver.getTitle();
-		 System.out.println(s);
+		 log.info("Electronics search clicked");
 		 return new ElectronicsPage();
 		 
 	 }
 	 
-	 public kindlePage dropDownKindleStore() {
+	 public KindlePage dropDownKindleStore() {
          dropDown.selectByVisibleText("Kindle Store");
-       /*  test.log(Status.INFO,"Inside Kindle");*/
+         log.info("In Home page, Kindle Store text selected");
          driver.findElement(By.id("twotabsearchtextbox")).sendKeys("kindle");
          driver.findElement(By.xpath("//*[@id=\"nav-search\"]/form/div[2]/div/input")).click();
-        /* test.log(Status.INFO,"Entered Kindle");*/
-
-         String s=driver.getTitle();
-         System.out.println(s);
-         return new kindlePage();
+         log.info("Kindle Store search clicked");
+         return new KindlePage();
          
      }
 	 public WatchPage dropDownWatches() {
 		 dropDown.selectByVisibleText("Watches");
+		 log.info("In Home page, Kindle Store text selected");
 		 driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Rolex");
 		 driver.findElement(By.xpath("//*[@id=\"nav-search\"]/form/div[2]/div/input")).click();
-		 String s=driver.getTitle();
-		 System.out.println(s);
+		 log.info("Watches search clicked");
 		 return new WatchPage();
 		 	 
 	 }

@@ -1,29 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-10T09:58:42Z" name="Default suite" finished-at="2020-08-10T09:58:58Z" duration-ms="15797">
+  <suite started-at="2020-08-12T12:57:19Z" name="Default suite" finished-at="2020-08-12T12:59:34Z" duration-ms="135298">
     <groups>
     </groups>
-    <test started-at="2020-08-10T09:58:42Z" name="Default test" finished-at="2020-08-10T09:58:58Z" duration-ms="15797">
+    <test started-at="2020-08-12T12:57:19Z" name="Default test" finished-at="2020-08-12T12:59:34Z" duration-ms="135298">
       <class name="com.testCases.dropDownTest">
-        <test-method is-config="true" signature="reporting()[pri:0, instance:com.testCases.dropDownTest@2fa7ae9]" started-at="2020-08-10T09:58:42Z" name="reporting" finished-at="2020-08-10T09:58:42Z" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="reporting()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:57:19Z" name="reporting" finished-at="2020-08-12T12:57:19Z" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporting -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testCases.dropDownTest@2fa7ae9]" started-at="2020-08-10T09:58:42Z" name="beforeMethod" finished-at="2020-08-10T09:58:51Z" duration-ms="9064" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:57:19Z" name="beforeMethod" finished-at="2020-08-12T12:57:40Z" duration-ms="21330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="dropDownDealsTest()[pri:0, instance:com.testCases.dropDownTest@2fa7ae9]" started-at="2020-08-10T09:58:51Z" name="dropDownDealsTest" finished-at="2020-08-10T09:58:54Z" duration-ms="2620" status="PASS">
+        <test-method signature="dropDownApplianceTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:57:40Z" name="dropDownApplianceTest" finished-at="2020-08-12T12:57:49Z" duration-ms="9365" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropDownDealsTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.dropDownTest@2fa7ae9]" started-at="2020-08-10T09:58:54Z" name="afterMethod" finished-at="2020-08-10T09:58:58Z" duration-ms="3853" status="PASS">
+        </test-method> <!-- dropDownApplianceTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:57:49Z" name="afterMethod" finished-at="2020-08-12T12:58:00Z" duration-ms="10975" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dropDownDealsTest status=SUCCESS method=dropDownTest.dropDownDealsTest()[pri:0, instance:com.testCases.dropDownTest@2fa7ae9] output={null}]]]>
+                <![CDATA[[TestResult name=dropDownApplianceTest status=SUCCESS method=dropDownTest.dropDownApplianceTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:58:00Z" name="beforeMethod" finished-at="2020-08-12T12:58:27Z" duration-ms="26185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dropDownDealsTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:58:27Z" name="dropDownDealsTest" finished-at="2020-08-12T12:58:28Z" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownDealsTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:58:28Z" name="afterMethod" finished-at="2020-08-12T12:58:35Z" duration-ms="7027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropDownDealsTest status=SUCCESS method=dropDownTest.dropDownDealsTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:58:35Z" name="beforeMethod" finished-at="2020-08-12T12:58:50Z" duration-ms="15461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dropDownElectronicsTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:58:50Z" name="dropDownElectronicsTest" finished-at="2020-08-12T12:58:51Z" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownElectronicsTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:58:51Z" name="afterMethod" finished-at="2020-08-12T12:58:55Z" duration-ms="3686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropDownElectronicsTest status=SUCCESS method=dropDownTest.dropDownElectronicsTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:58:55Z" name="beforeMethod" finished-at="2020-08-12T12:59:08Z" duration-ms="12924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dropDownWatchesTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:59:08Z" name="dropDownWatchesTest" finished-at="2020-08-12T12:59:08Z" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownWatchesTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:59:08Z" name="afterMethod" finished-at="2020-08-12T12:59:16Z" duration-ms="7400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropDownWatchesTest status=SUCCESS method=dropDownTest.dropDownWatchesTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:59:16Z" name="beforeMethod" finished-at="2020-08-12T12:59:28Z" duration-ms="12698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dropDownkindleStoreTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:59:28Z" name="dropDownkindleStoreTest" finished-at="2020-08-12T12:59:29Z" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownkindleStoreTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.dropDownTest@60afd40d]" started-at="2020-08-12T12:59:29Z" name="afterMethod" finished-at="2020-08-12T12:59:34Z" duration-ms="4644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropDownkindleStoreTest status=SUCCESS method=dropDownTest.dropDownkindleStoreTest()[pri:0, instance:com.testCases.dropDownTest@60afd40d] output={null}]]]>
               </value>
             </param>
           </params>
