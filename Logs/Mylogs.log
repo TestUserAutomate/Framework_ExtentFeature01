@@ -50,3 +50,18 @@
 [INFO ] 2020-08-12 18:29:29.687 [main] SeleniumBase - Kindle Store search clicked
 [INFO ] 2020-08-12 18:29:29.689 [main] SeleniumBase - kindlePage
 [INFO ] 2020-08-12 18:29:29.689 [main] SeleniumBase - kindlePage flow completed
+[INFO ] 2020-10-15 14:27:53.317 [main] SeleniumBase - Extent Reports configured
+[INFO ] 2020-10-15 14:28:04.285 [main] SeleniumBase - In Home page, Appliances text selected
+[INFO ] 2020-10-15 14:28:04.671 [main] SeleniumBase - Appliances search clicked
+[INFO ] 2020-10-15 14:28:04.676 [main] SeleniumBase - AppliancePage
+[INFO ] 2020-10-15 14:28:04.677 [main] SeleniumBase - AppliancePage flow completed
+[INFO ] 2020-10-15 14:28:24.263 [main] SeleniumBase - In Home page, Deals text selected
+[INFO ] 2020-10-15 14:28:24.599 [main] SeleniumBase - Deals search clicked
+[INFO ] 2020-10-15 14:28:24.601 [main] SeleniumBase - DealsPage
+[INFO ] 2020-10-15 14:28:24.601 [main] SeleniumBase - DealsPage flow completed
+[INFO ] 2020-10-15 14:28:42.158 [main] SeleniumBase - In Home page, Electronics text selected
+[INFO ] 2020-10-15 14:28:42.434 [main] SeleniumBase - Electronics search clicked
+[INFO ] 2020-10-15 14:28:42.435 [main] SeleniumBase - ElectronicsPage
+[INFO ] 2020-10-15 14:28:42.435 [main] SeleniumBase - ElectronicsPage flow completed
+[INFO ] 2020-10-15 14:30:31.977 [main] SeleniumBase - Extent Reports configured
+[INFO ] 2020-10-15 14:49:55.530 [main] SeleniumBase - Extent Reports configured
